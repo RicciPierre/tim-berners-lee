@@ -1,0 +1,105 @@
+dy {
+    background-color: rgb(235 235 235);
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(82, 81, 81);
+}
+
+.intro { 
+    width: 50%;
+    background-color: white;
+    margin: 50px 350px 20px 350px;
+    padding: 0 86px 0 86px;
+    text-align: center;
+    color: rgb(235 , 235, 235);
+    border-radius: 8px;
+    margin: 35px auto 35px auto;
+    padding: 35px;
+}
+
+.tim {
+    border-radius: 50%;
+    border: solid 5px rgb(235 , 235, 235);
+    margin: 20px 0 0 0;
+}
+
+h1 {
+    color: rgb(235, 25, 123);
+}
+
+.p {
+    text-align: justify;
+}
+
+.bio {
+    background-color: rgb(235, 25, 123);
+    color: white;
+    padding: 18px 34px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.links {
+    background-color: white;
+    margin: 35px auto 35px auto;
+    padding: 35px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px 20px 20px 20px;
+}
+
+li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.social a {
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+}
+
+.movies {
+    background-color: white;
+    margin: 50px 350px 20px 350px;
+    padding: 0 86px 0 86px;
+    text-align: center;
+}
+
+mark {
+    background-color: rgb(235 , 235, 235);
+    color: inherit;
+}
+
+.container_movie {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20;
+}
+
+.imovie1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.movie1 {
+    grid-area: 1 / 2 / 2 / 4;
+}
+.imovie2 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+.movie2 {
+    grid-area: 2 / 2 / 3 / 4;
+}
+.imovie3 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+.movie3 {
+    grid-area: 3 / 2 / 4/ 4;
+}
+.resume {
+    text-align: justify;
+}
