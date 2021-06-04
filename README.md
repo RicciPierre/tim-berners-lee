@@ -50,3 +50,6 @@ NOTE: the icons are part of [Font Awesome](https://www.bootstrapcdn.com/fontawes
 **Git**
 * commit/push
 * deploy on a Github page
+
+### Page link 💻
+[Click me !](https://riccipierre.github.io/tim-berners-lee/)
